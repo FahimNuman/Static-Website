@@ -1,0 +1,115 @@
+*{margin: 0;padding: 0;outline: o;}
+
+body
+{font-family: arial;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+}
+
+
+.templete{width:980px;margin:0 auto;}
+
+.cleare{overflow: hidden;}
+
+.headersection{
+    background-color:#33552f non repeat scroll 0 0;
+    color:rgb(66, 42, 42);
+    height: 85px;
+    }
+
+.headersection h2{
+    font-size:40px;
+    padding-top: 60px;
+    background: #33552f;
+    text-align: center;}
+
+.navsection{background: #9b999A;}
+.navsection ul{margin: 0;padding: 0;list-style:none;}
+.navsection ul li{display: block;float: left;}
+.navsection ul li a{
+
+    background: #cdcbcc none repeat scroll 0 0;
+    color:#444;
+    display:block;
+    font-size:20px;
+    font-weight: bold;
+    margin:5px;
+    padding:5px 30px;
+    text-decoration: none;
+
+
+}
+.navsection ul li a:hover{background:#2F2D2E;color: #fff;}
+.contentsection{background: #FFFFFF;}
+.maincontent{
+    width: 500px;
+    background:#dfdfdf none repeat scroll 0 0;
+    float: left;
+    margin: 15px 15px 15px 0;
+    width: 650px;
+}
+.samepost{}
+.samepost h2{
+    border-bottom: 2px solid #555555;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.samepost img{
+
+    background: #fff;
+    border:1px solid #9b999A;
+    float:left;
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+
+}
+.samepost p{
+    font-size: 16px;
+    line-height: 35px;
+    text-align: justify;
+}
+.readmore{float:right;
+          margin-top: 10px;
+            }
+.readmore a{
+    background: #fff non repeat scroll 0 0;
+    border: 1px solid #9b999a;
+    border-radius: 3px;
+    color: #333;
+    display: block;
+    font-size: 17px;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+.readmore a:hover{background:#2F2D2E;color: #fff;}
+
+.maincontent p{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+
+.sidebar{
+
+         background: #bbb9ba none scroll 0 0;
+         float:right;
+         margin-top: 15px;
+         padding: 10px;
+         width:255px;
+         
+        }
+.sidebar h2{
+    background:#e6147d;
+    padding: 10px;
+    color: #fff;
+}        
+.sidebar p{background: #1a030e;}
+
+
+.footersection{height: 85px;background-color:rgb(30, 135, 226);color:#000;}
+.footersection h2{font-size:large;padding: auto;text-align: center;}
+.footersection p{color:#fff;text-align:center;font-size:30px;}
